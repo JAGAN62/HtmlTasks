@@ -12,9 +12,8 @@
             background-position:70%;
             background-attachment:fixed;
             background-size:cover;
-            background-color: rgb(48, 131, 131);
-            
-
+            width: 100%;
+            height: 100vh;
         }
 h2{
     text-align: center;
@@ -129,19 +128,19 @@ label {
                 <h3 style="color:rgb(227, 7, 7)">Intrest in Technical skills</h3>
                 <label for="java-range">Java:</label>
                 <input type="range" id="java-range" min="0" max="100" value="50" oninput="javaOutput.value = this.value">
-                <output id="java-output" name="javaOutput"></output><br>
+                <output id="java-output" name="javaOutput">50</output><br>
                 
                 <label for="python-range">Python:</label>
                 <input type="range" id="python-range" min="0" max="100" value="50" oninput="pythonOutput.value = this.value">
-                <output id="python-output" name="pythonOutput"></output><br>
+                <output id="python-output" name="pythonOutput">70</output><br>
                 
                 <label for="c-range">C:</label>
                 <input type="range" id="c-range" min="0" max="100" value="50" oninput="cOutput.value = this.value">
-                <output id="c-output" name="cOutput"></output><br>
+                <output id="c-output" name="cOutput">100</output><br>
                  
                 <label for="cp-range">C++:</label>
                 <input type="range" id="cp-range" min="0" max="100" value="50" oninput="cpOutput.value = this.value">
-                <output id="cp-output" name="cpOutput"></output><br>
+                <output id="cp-output" name="cpOutput">40</output><br>
             </div><br>
             <div class="form-group">
                 <label for="color">choose your favourate color : </label>
